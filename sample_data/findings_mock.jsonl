@@ -1,0 +1,7 @@
+{"application_name":"Billing-App","tool_source":"SAST","tool_name":"SonarQube","title":"SQL Injection in invoice search","severity":"critical","cvss":9.8,"exploit_available":true,"internet_exposed":true,"status":"open"}
+{"application_name":"Billing-App","tool_source":"SCA","tool_name":"Snyk","title":"Log4j vulnerable dependency","severity":"high","cvss":8.1,"exploit_available":true,"internet_exposed":true,"status":"open"}
+{"application_name":"Auth-Service","tool_source":"DAST","tool_name":"OWASP ZAP","title":"Reflected XSS on /callback","severity":"high","cvss":7.2,"exploit_available":false,"internet_exposed":true,"status":"open"}
+{"application_name":"Data-Lake-ETL","tool_source":"CLOUD","tool_name":"Wiz","title":"S3 bucket public read","severity":"critical","cvss":9.0,"exploit_available":true,"internet_exposed":true,"status":"open"}
+{"application_name":"Data-Lake-ETL","tool_source":"CONTAINER","tool_name":"Trivy","title":"OpenSSL high vuln in base image","severity":"medium","cvss":5.6,"exploit_available":false,"internet_exposed":false,"status":"open"}
+{"application_name":"Customer-Portal","tool_source":"RUNTIME","tool_name":"WAF","title":"Suspicious credential stuffing detected","severity":"medium","cvss":5.0,"exploit_available":false,"internet_exposed":true,"status":"open"}
+{"application_name":"Customer-Portal","tool_source":"DAST","tool_name":"OWASP ZAP","title":"Missing security headers","severity":"low","cvss":3.1,"exploit_available":false,"internet_exposed":true,"status":"open"}
